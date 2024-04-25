@@ -1,35 +1,36 @@
-const age = 13
-const name = "Mstyslav"
-let isStudent = true
-let myString = "Неважно як повільно ти йдеш, головне - не зупиняйся"
-let myNumber = 7
-const myNull = null
-console.log(age, name, isStudent)
-console.log(myString)
-console.log(myNumber + 10)
-console.log(myNull)
+let celsius = Number(prompt("enter temperarute in celsius"))
+let fahrenheit = (celsius * 9/5)+32;
+console.log(celsius + "°C" + " equals " + fahrenheit + "℉")
+// ===================================1============================================
 
-let yourName = prompt("enter your name")
-console.log("Привіт" + " " + yourName)
+let month = prompt("enter your month")
+let days = Number(prompt("how many days in your month?"))
+console.log(month+ " has " + days * 24 + " hours and " + days * 24 * 60 + " minutes")
+// ===================================2============================================
+let health = 100 - 50
+let energy = 100 - 20
 
-let yesNo = confirm("Ви впевнені, що хочете продовжити?")
-if (yesNo) {
-    console.log("Дякую за підтвердження!")
-}
-else {
-    console.log("Дію відмінено!")
-}
+console.log("Рівень здоров'я гравця: " + health);
+console.log("Рівень енергії гравця: " + energy);
+// ===================================3============================================
+let basket = 120 + 30 + 45 + 67 + 334 
+console.log(basket * 0.9)
+// ===================================4============================================
+let float = 43.785
+console.log(Math.floor(float))
+// ===================================5============================================
+let floatString = "23.42432246"
+console.log(parseFloat(floatString))
+// ===================================6============================================
+let numString = "123"
+console.log(parseInt(numString))
+// ===================================7============================================
+let rootNum = 64
+console.log(Math.sqrt(rootNum))
+// ===================================8============================================
+let numToStr = 12983
+let strToNum = "1476891"
+console.log(numToStr.toString())
+console.log(parseInt(strToNum))
 
-alert("Увага! Ця дія є небезпечною.");
-let yesNo1 = confirm("Ви впевнені, що хочете продовжити?")
-if (yesNo1) {
-    console.log("Дякую за підтвердження!")
-}
-else {
-    console.log("Дію відмінено!")
-}
-
-
-
-
-
+// ===================================9============================================
